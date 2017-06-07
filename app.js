@@ -23,6 +23,10 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 
+function multiply(n1, n2) {
+  return [n1 * n2, 'The product of ' + n1 + ' and ' + n2 + ' is ' + (n1 * n2) + '.'];
+}
+
 // Here is the test for multiply(); uncomment it to run it
 testMultiply(4,7);
 
