@@ -48,9 +48,6 @@ function sumAndMultiply(n1, n2, n3) {
 	return [n1 + n2 + n3, n1 * n2 * n3, n1 + ' and ' + n2 + ' and ' + n3 + ' sum to ' + (n1 + n2 + n3) + '.', 'The product of ' + n1 + ' and ' + n2 + ' and ' + n3 + ' is ' + n1 * n2 * n3 + '.'];
 }
 
-  //return [n1 * n2, 'The product of ' + n1 + ' and ' + n2 + ' is ' + (n1 * n2) + '.'];
-
-
 // Here is the test for sumAndMultiply(); uncomment it to run it
 testSumAndMultiply(4,7,5);
 
@@ -63,7 +60,13 @@ Write a function called sumArray() that takes in an array of numbers as its argu
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumArray() function and see if the test passes.*/
 
 // Write your code here
-testArray = [2,3,4];
+function sumArray(testArray) {
+  console.log(testArray);
+  return [testArray[0] + testArray[1] + testArray[2], testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' was passed in as an array of numbers, and ' + ((testArray[0] + testArray[1] + testArray[2])) + ' is their sum.'];
+}
+
+testArray = [2, 3, 4];
+
 
 // Here is the test for sumArray(); uncomment it to run it
 testSumArray(testArray);
@@ -77,6 +80,12 @@ Write a function called multiplyArray() that takes an array of numbers as its ar
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // Write your code here
+function multiplyArray(testArray) {
+  console.log(testArray);
+	return [testArray[0] * testArray[1] * testArray[2], 'The numbers ' + testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' have a product of ' + (testArray[0] * testArray[1] * testArray[2]) + '.'];
+}
+
+testArray = [2, 3, 4];
 
 // Here is the test for multiplyArray(); uncomment it to run it
 testMultiplyArray(testArray);
