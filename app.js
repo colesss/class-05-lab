@@ -7,11 +7,13 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 
 function sum(n1, n2) {
+  console.log(n1, n2);
   return [n1 + n2, 'The sum of ' + n1 + ' and ' + n2 + ' is ' + (n1 + n2) + '.'];
 }
 
 // Here is the test for sum(); uncomment it to run it
 testSum(4, 7);
+
 
 // Once you get the test passing, do an a-c-p cycle.
 
@@ -24,7 +26,8 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 
 function multiply(n1, n2) {
-  return [n1 * n2, 'The product of ' + n1 + ' and ' + n2 + ' is ' + (n1 * n2) + '.'];
+  console.log(n1, n2);
+	return [n1 + n2, 'The product of ' + n1 + ' and ' + n2 + ' is ' + (n1 * n2) + '.'];
 }
 
 // Here is the test for multiply(); uncomment it to run it
@@ -40,6 +43,10 @@ Fourth element: "The product of 4 and 7 and 5 is 140."
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
+
+function sumAndMultiply(n1, n2, n3) {
+  //return [n1 * n2, 'The product of ' + n1 + ' and ' + n2 + ' is ' + (n1 * n2) + '.'];
+}
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
 testSumAndMultiply(4,7,5);
